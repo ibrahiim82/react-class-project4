@@ -4,6 +4,10 @@ const MouseEvents = () => {
   const [visible, setVisible] = useState(false);
   const handleDoubleClick = (e) => e.target.classList.toggle("bg-danger");
 
+  const handleMouseMove = (e) => {
+    //  console.log(e);
+  };
+
   return (
     <div className="container text-center d-flex flex-column align-items-center mt-4">
       <h2 className="text-danger">MOUSE EVENTS</h2>
